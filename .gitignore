@@ -1,0 +1,28 @@
+# ───────────────────────────────────────────────
+# Maven build
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ───────────────────────────────────────────────
+# Eclipse specific
+.classpath
+.project
+.settings/
+
+# ───────────────────────────────────────────────
+# OS / 시스템 파일
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# ───────────────────────────────────────────────
+# 환경 설정 파일 (민감 정보)
+/src/main/resources/application.properties
+.env
+
+# ───────────────────────────────────────────────
+# 업로드/임시 폴더 (빈 폴더 유지할 경우 .gitkeep으로)
+/uploads/
